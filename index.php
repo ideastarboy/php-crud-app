@@ -23,6 +23,8 @@ if (!$result) {
 
 // Display the data
 echo "<h1>PHP CRUD App - Almost a DevOps Engineer!</h1>";
+// Display the data
+echo "<p>This application was built by Amarachi Ejieji, Ifeoluwa Adewole, Joke Dasaolu, Tamunodiepiriye Wakama</p>";
 echo "<table border='1'>
         <tr>
             <th>ID</th>
