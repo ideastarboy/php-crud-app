@@ -1,0 +1,6 @@
+---
+# Default variables for the role
+
+mysql_packages:
+  - mysql-server
+

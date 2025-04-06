@@ -1,0 +1,17 @@
+---
+# tasks file for roles/php_install
+
+- name: Update APT cache
+  apt:
+    update_cache: yes
+
+- name: Install PHP and modules
+  apt:
+    name: "{{ php_packages }}"
+    state: present
+
+- name: Restart Apache
+  service:
+    name: apache2
+    state: restarted
+

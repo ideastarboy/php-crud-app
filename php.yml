@@ -1,0 +1,6 @@
+- name: Install PHP with Ansible role
+  hosts: webservers
+  become: yes
+  roles:
+    - php_install
+

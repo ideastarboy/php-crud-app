@@ -1,0 +1,9 @@
+---
+# vars file for roles/php_install
+
+php_packages:
+  - php
+  - php-cli
+  - php-mysql
+  - libapache2-mod-php
+

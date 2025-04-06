@@ -1,0 +1,7 @@
+- name: Install Apache using Ansible role
+  hosts: webservers
+  become: yes
+
+  roles:
+    - apache_install
+
