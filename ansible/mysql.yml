@@ -1,6 +1,0 @@
-- name: Install MySQL using role
-  hosts: webservers
-  become: yes
-  roles:
-    - mysql_install
-

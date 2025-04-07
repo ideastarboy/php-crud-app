@@ -1,6 +1,0 @@
----
-mysql_root_password: "password"
-mysql_packages:
-  - mysql-server
-
-
