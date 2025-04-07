@@ -5,9 +5,9 @@ pipeline {
         REPO_URL = 'https://git@github.com:ideastarboy/php-crud-app.git'
         NEXUS_REPO = 'dev-team-30'
         ARTIFACT_NAME = 'myapp.zip'
-        NEXUS_URL = 'http://3.98.178.90:8081'
+        NEXUS_URL = 
         ARTIFACT_URL = "${NEXUS_URL}/repository/${NEXUS_REPO}/${ARTIFACT_NAME}"
-        SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'
+        SLACK_WEBHOOK_URL = 
     }
 
     stages {
